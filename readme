@@ -11,18 +11,6 @@ O script analisa dados exportados do Spotify para revelar padrões interessantes
 - Uso por diferentes plataformas
 - Tempo total de escuta
 
-## 📁 Estrutura do Projeto
-
-```
-Projeto_Spotify/
-├── script.py                              # Script principal de análise
-├── spotify_history.csv                    # Dados de histórico do Spotify
-├── spotify_data_dictionary Description.csv # Descrição dos campos dos dados
-├── Figure_1.png                          # Gráfico: Top 15 Artistas
-├── Figure_2.png                          # Gráfico: Horários de Escuta
-├── Figure_3.png                          # Gráfico: Uso por Plataforma
-└── readme                                # Este arquivo
-```
 
 ## 🛠️ Pré-requisitos
 
@@ -55,6 +43,8 @@ O script trabalha com os seguintes campos do seu histórico do Spotify:
 ### 1. Top 15 Músicas Mais Ouvidas
 Lista das músicas que você mais reproduziu, baseada na contagem de plays.
 
+![Gráfico de Análise 1](./figure_1.png)
+
 ### 2. Top 15 Artistas Mais Ouvidos
 Ranking dos artistas mais reproduzidos, com visualização em gráfico de barras.
 
@@ -72,66 +62,8 @@ Identificação dos horários do dia em que você mais ouve música, com visuali
 ### 6. Análise por Plataforma
 Distribuição do uso por diferentes plataformas (Android, Web Player, etc.) com gráfico de pizza e tempo total por plataforma.
 
-## 📈 Visualizações Geradas
 
-O script gera três gráficos principais:
 
-1. **Figure_1.png**: Gráfico de barras horizontal mostrando os Top 15 artistas mais ouvidos
-2. **Figure_2.png**: Gráfico de barras mostrando a distribuição de músicas por hora do dia
-3. **Figure_3.png**: Gráfico de pizza mostrando a distribuição de uso por plataforma
 
-## 🚀 Como Usar
 
-1. **Prepare seus dados**: Exporte seu histórico do Spotify e salve como `spotify_history.csv`
-2. **Execute o script**:
-   ```bash
-   python script.py
-   ```
-3. **Analise os resultados**: O script exibirá insights no console e gerará gráficos automaticamente
 
-## 📋 Exemplo de Saída
-
-O script fornece uma análise completa no console, incluindo:
-
-```
---- 🎶 Top 15 Músicas Mais Ouvidas ---
-[Lista das músicas mais reproduzidas]
-
---- 🎤 Top 15 Artistas Mais Ouvidos ---
-[Ranking dos artistas favoritos]
-
---- 🎧 Tempo Total de Escuta ---
-Você ouviu um total de XXX.XX horas de música neste relatório.
-
---- ⏭️ Análise de Músicas Puladas (Skips) ---
-[Análise do comportamento de skip]
-
---- ⏰ Horários em que Você Mais Ouve Música ---
-[Distribuição por hora do dia]
-
---- 📱 Análise por Plataforma ---
-[Uso por diferentes plataformas]
-```
-
-## 🔧 Personalização
-
-Você pode facilmente modificar o script para:
-- Alterar o número de itens nos rankings (atualmente 15)
-- Adicionar novas análises
-- Modificar os estilos dos gráficos
-- Incluir análises por período específico
-
-## 📝 Notas
-
-- Os dados são convertidos automaticamente para facilitar a análise
-- Milissegundos são convertidos para minutos para melhor legibilidade
-- Timestamps são convertidos para formato de data/hora
-- O script inclui tratamento de dados e limpeza automática
-
-## 🤝 Contribuições
-
-Sinta-se à vontade para contribuir com melhorias, novas análises ou correções!
-
----
-
-*Desenvolvido para análise de dados pessoais do Spotify*
