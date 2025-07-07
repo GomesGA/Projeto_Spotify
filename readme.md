@@ -43,10 +43,10 @@ O script trabalha com os seguintes campos do seu histórico do Spotify:
 ### 1. Top 15 Músicas Mais Ouvidas
 Lista das músicas que você mais reproduziu, baseada na contagem de plays.
 
-![Gráfico de Análise 1](Figure_1.png)
-
 ### 2. Top 15 Artistas Mais Ouvidos
 Ranking dos artistas mais reproduzidos, com visualização em gráfico de barras.
+
+![Gráfico de Análise 1](Figure_2.png)
 
 ### 3. Tempo Total de Escuta
 Cálculo do tempo total gasto ouvindo música (em horas).
@@ -59,8 +59,13 @@ Análise do comportamento de pular músicas:
 ### 5. Horários de Pico de Escuta
 Identificação dos horários do dia em que você mais ouve música, com visualização em gráfico de barras.
 
+![Gráfico de Análise 2](Figure_3.png)
+
 ### 6. Análise por Plataforma
 Distribuição do uso por diferentes plataformas (Android, Web Player, etc.) com gráfico de pizza e tempo total por plataforma.
+
+![Gráfico de Análise 3](Figure_1.png)
+
 
 
 
