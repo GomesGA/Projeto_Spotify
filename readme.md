@@ -43,7 +43,7 @@ O script trabalha com os seguintes campos do seu histórico do Spotify:
 ### 1. Top 15 Músicas Mais Ouvidas
 Lista das músicas que você mais reproduziu, baseada na contagem de plays.
 
-![Gráfico de Análise 1](figure_1.png)
+![Gráfico de Análise 1](Figure_1.png)
 
 ### 2. Top 15 Artistas Mais Ouvidos
 Ranking dos artistas mais reproduzidos, com visualização em gráfico de barras.
